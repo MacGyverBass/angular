@@ -4,6 +4,6 @@ ENV GPG_TTY=/dev/console
 
 RUN apk --no-cache add git gnupg
 
-RUN npm install -g @angular/cli
+RUN npm install -g @angular/cli@8
 
 CMD "/bin/sh"
